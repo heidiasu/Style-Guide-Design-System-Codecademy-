@@ -1,0 +1,89 @@
+  body {
+  background-color: #F0F6F6;
+  font-size: 16px;
+  color: #131112;
+}
+
+h1.title {
+  text-align: center;
+  font-size: 2em;
+}
+/* colors */
+.colors,
+.fonts {
+  border: 1px solid black;
+  margin: 10px;
+
+}
+
+.color-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.color-box {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.colors h2,
+.fonts h2 {
+  text-align: center;
+}
+
+.deep-chestnut {
+  background-color: #AA5042;
+  flex-grow: 1;
+}
+
+.smoky-black {
+  background-color: #131112;
+  color: #fff;
+  flex-grow: 1;
+}
+
+.russian-green {
+  background-color: #629677;
+  flex-grow: 1;
+}
+
+.celadon-blue {
+  background-color: #007EA7;
+  flex-grow: 1;
+}
+
+.light-periwinkle {
+  background-color: #CDD1DE;
+  flex-grow: 1;
+}
+/* fonts */
+.fonts h3 {
+  text-decoration: underline;
+  text-align: center;
+}
+.font-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.font-box {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
